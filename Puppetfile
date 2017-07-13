@@ -38,3 +38,7 @@ mod 'role',
 mod 'profile',
   :git     => 'https://github.com/mattkent/puppet-profile.git',
   :ref     => 'master'
+
+mod 'ngnix',
+  :git     => 'git@github.com:mattkent/puppet-nginx.git',
+  :ref     => 'master'
