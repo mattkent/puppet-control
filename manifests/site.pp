@@ -26,8 +26,8 @@ File { backup => false }
 
 $test_top_scope = "Top Scope"
 
-node 'mattkent3.mylabserver', {
-  notify { 'This macthes the node name.': }
+node 'mattkent3', {
+  notify { 'This macthes the mattkent3.': }
 }
 #node /^mattkent3/ {
 #  notify {"This is a node definition uisng regex!!!!":}
