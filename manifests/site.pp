@@ -29,9 +29,9 @@ $test_top_scope = "Top Scope"
 node 'mattkent3.mylabserver', {
   notify { 'This macthes the node name.': }
 }
-node /^mattkent3/ {
-  notify {"This is a node definition uisng regex!!!!":}
-}
+#node /^mattkent3/ {
+#  notify {"This is a node definition uisng regex!!!!":}
+#}
 node 'mattkent1.mylabserver.com' {
   include pe_repo::platform::el_6_x86_64
   include pe_repo::platform::ubuntu_1204_amd64
