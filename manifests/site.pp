@@ -26,17 +26,17 @@ File { backup => false }
 
 $test_top_scope = "Top Scope"
 
-node 'mattkent3', {
-  notify { 'This macthes the mattkent3.': }
-}
+#node 'mattkent3', {
+#  notify { 'This macthes the mattkent3.': }
+#}
 #node /^mattkent3/ {
 #  notify {"This is a node definition uisng regex!!!!":}
 #}
-node 'mattkent2.mylabserver.com' {
-  notify { 'test-message-for-mattkent2':
-    message => 'this is mattkent2 using a node def',
-  }
-}
+#node 'mattkent2.mylabserver.com' {
+#  notify { 'test-message-for-mattkent2':
+#    message => 'this is mattkent2 using a node def',
+#  }
+#}
 node 'mattkent1.mylabserver.com' {
   include pe_repo::platform::el_6_x86_64
   include pe_repo::platform::ubuntu_1204_amd64
