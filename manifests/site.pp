@@ -46,4 +46,5 @@ node default {
   # Example:
   #   class { 'my_class': }
   #class { 'java': }
+  hiera_include('classes')
 }

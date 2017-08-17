@@ -6,3 +6,5 @@ profile::nginx::vhosts:
  - 'fqdn': 'mattkent2b.mylabserver.com'
    'port': 80
    'server_aliases': 'mattkent2b1.mylabserver.com'
+classes:
+ - profile:nginx
